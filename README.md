@@ -10,7 +10,7 @@ CUDA_VISIBLE_DEVICES=1 PYTHONPATH=. python diffusion/$program \
     method=ddpo task=$task mode@_global_=ddpo \
     from_checkpoint=large-v2.ckpt 
 ```
-large-v2.ckpt can get from (https://github.com/vint-1/chipdiffusion#pre-trained-models) https://drive.google.com/drive/folders/16b8RkVwMqcrlV_55JKwgprv-DevZOX8v?usp=sharing
+chipdiffusion model, large-v2.ckpt, can get from (https://github.com/vint-1/chipdiffusion#pre-trained-models)
 
 ## How to get Synthesized dataset
 ```bash
