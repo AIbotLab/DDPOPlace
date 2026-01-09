@@ -3,6 +3,12 @@ Code for DDPOPlace: Reinforcement-Learned Diffusion Placement with Intermediate 
 
 This project based on https://github.com/vint-1/chipdiffusion
 
+## Dependency
+```bash
+conda env create -f environment.yaml
+conda activate DDPOPlace
+```
+
 ## How to train
 
 ```bash
